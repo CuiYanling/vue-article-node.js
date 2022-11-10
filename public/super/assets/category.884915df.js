@@ -1,0 +1,1 @@
+import{bN as e}from"./index.1bb11c7d.js";let o=t=>e.get("/category/list",{params:t}),r=t=>e.get("/category/sub",{params:t}),s=t=>e.post("/category/add",t),a=t=>e.post("/category/remove",t),g=t=>e.post("/category/edit",t);const i={list:o,subcate:r,insert:s,remove:a,edit:g};export{i as C};

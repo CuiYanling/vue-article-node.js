@@ -1,0 +1,1 @@
+import{bN as t}from"./index.1bb11c7d.js";let i=e=>t.get("/link/list",{params:e}),s=(e,l)=>t.delete(`/link/${e}`,{params:l}),o=(e,l)=>t.put(`/link/${e}`,l),p=e=>t.get("/slide/list",{params:e}),r=e=>t.post("/slide/remove",e),d=e=>t.post("/slide/edit",e);const n={list:i,removelink:s,editlink:o,pic:p,premove:r,keep:d};export{n as P};

@@ -1,0 +1,1 @@
+import{bN as t}from"./index.1bb11c7d.js";let o=e=>t.get("/notice/list",{params:e}),i=e=>t.post("/notice/edit",e),s=e=>t.get("/notice/detail",{params:e}),l=e=>t.post("/notice/stick",e),c=e=>t.post("/notice/remove",e),n=e=>t.post("/notice/release",e);const r={noticelist:o,edit:i,info:s,top:l,remove:c,release:n};export{r as N};
